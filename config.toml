@@ -1,4 +1,19 @@
-baseURL = "http://example.org/"
+baseURL = "https://treiff.dev"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "a title"
 theme = "kiss"
+
+Paginate = 5
+enableRobotsTXT = true
+
+[params.rss]
+includeContent = true
+authorName = "Trevor Reiff"
+authorEmail = "trevorreiff@gmail.com"
+
+[params.info]
+enableSocial = true
+
+[params.social]
+twitter = "treiff"
+github = "treiff"
