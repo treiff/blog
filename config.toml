@@ -1,4 +1,4 @@
-baseURL = "https://treiff.dev"
+baseURL = "treiff.dev"
 title = "Trevors blog"
 copyright = "© 2016-19 Trevor Reiff"
 enableEmoji = true
