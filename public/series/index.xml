@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Trevors blog</title>
-    <link>https://treiff.dev/tags/</link>
-    <description>Recent content in Tags on Trevors blog</description>
+    <title>Series on Trevors blog</title>
+    <link>https://treiff.dev/series/</link>
+    <description>Recent content in Series on Trevors blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016-19 Trevor Reiff</copyright>
     
-	<atom:link href="https://treiff.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://treiff.dev/series/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
