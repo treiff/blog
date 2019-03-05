@@ -1,4 +1,41 @@
-baseURL = "http://example.org/"
+baseURL = "https://treiff.dev"
+title = "Trevors blog"
+copyright = "© 2016-19 Trevor Reiff"
+enableEmoji = true
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "kiss"
+description = "My personal blog, have fun"
+theme ="hugo-theme-basic"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  titleEmoji = ":tada:"
+  twitter = "treiff"
+
+[Permalinks]
+  post = "post/:slug"
+
+[[params.menu]]
+  name = "blog"
+  url = "post/"
+
+[[params.menu]]
+  name = "post series"
+  url = "series/"
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
