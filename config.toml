@@ -1,19 +1,41 @@
 baseURL = "https://treiff.dev"
+title = "Trevors blog"
+copyright = "© 2016-19 Trevor Reiff"
+enableEmoji = true
 languageCode = "en-us"
-title = "a title"
-theme = "kiss"
+description = "My personal blog, have fun"
+theme ="hugo-theme-basic"
 
-Paginate = 5
-enableRobotsTXT = true
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
-[params.rss]
-includeContent = true
-authorName = "Trevor Reiff"
-authorEmail = "trevorreiff@gmail.com"
+[params]
+  titleEmoji = ":tada:"
+  twitter = "treiff"
 
-[params.info]
-enableSocial = true
+[Permalinks]
+  post = "post/:slug"
 
-[params.social]
-twitter = "treiff"
-github = "treiff"
+[[params.menu]]
+  name = "blog"
+  url = "post/"
+
+[[params.menu]]
+  name = "post series"
+  url = "series/"
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
