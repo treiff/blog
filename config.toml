@@ -1,5 +1,6 @@
 title = "Trevors blog"
 copyright = "© 2016-19 Trevor Reiff"
+googleAnalytics = "UA-53078606-2"
 enableEmoji = true
 languageCode = "en-us"
 description = "My personal blog, have fun"
