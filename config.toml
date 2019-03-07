@@ -1,5 +1,5 @@
-title = "Trevors blog"
-copyright = "© 2016-19 Trevor Reiff"
+title = "treiff"
+copyright = "© 2019 Trevor Reiff"
 googleAnalytics = "UA-53078606-2"
 enableEmoji = true
 languageCode = "en-us"
@@ -13,7 +13,8 @@ theme ="hugo-theme-basic"
 
 [params]
   titleEmoji = ":tada:"
-  twitter = "treiff"
+  twitter = "tlreiff"
+  github = "treiff"
 
 [Permalinks]
   post = "post/:slug"
@@ -22,9 +23,9 @@ theme ="hugo-theme-basic"
   name = "blog"
   url = "post/"
 
-[[params.menu]]
-  name = "post series"
-  url = "series/"
+#[[params.menu]]
+#  name = "post series"
+#  url = "series/"
 
 [[params.menu]]
   name = "about"
