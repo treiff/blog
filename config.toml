@@ -12,7 +12,6 @@ theme ="hugo-theme-basic"
   tag = "tags"
 
 [params]
-  titleEmoji = ":tada:"
   twitter = "tlreiff"
   github = "treiff"
 
